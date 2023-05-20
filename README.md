@@ -105,7 +105,7 @@ npx prisma studio
 ## Frontend (Web)
 - Tailwind
 
-Create the project with [Next.js](https://nextjs.org/):
+Create the project with [Next.js](https://nextjs.org/learn/basics/create-nextjs-app/setup):
 ```sh
 npx create-next-app@latest web --use-npm
 ```
@@ -128,3 +128,36 @@ npm run dev
 
 
 ## Frontend (Mobile)
+
+Create the project:
+```sh
+npx create-expo-app mobile
+```
+
+Go to the project and change it to Typescript:
+```sh
+cd mobile
+mv App.js App.tsx
+```
+
+Install the dependencies:
+```sh
+npm i nativewind
+```
+
+Install the development dependencies:
+```sh
+npm i tailwindcss -D
+npm i eslint @rocketseat/eslint-config -D
+npm i prettier-plugin-tailwindcss -D
+```
+
+Create the [Tailwindcss](https://www.nativewind.dev/quick-starts/expo) config:
+```sh
+npx tailwindcss init
+```
+
+Start the project:
+```sh
+npm run start
+```
