@@ -15,6 +15,8 @@ Extensions:
 Command + Shift + p
 Open user settings.json
 
+## Backend
+
 Install Node LTS
 ```sh
 nvm install v18.16.0
@@ -99,3 +101,30 @@ Open the database:
 ```sh
 npx prisma studio
 ```
+
+## Frontend (Web)
+- Tailwind
+
+Create the project with [Next.js](https://nextjs.org/):
+```sh
+npx create-next-app@latest web --use-npm
+```
+
+Install the dependencies:
+```sh
+
+```
+
+Install the development dependencies:
+```sh
+npm i @rocketseat/eslint-config -D
+npm i prettier-plugin-tailwindcss -D
+```
+
+Start the project:
+```sh
+npm run dev
+```
+
+
+## Frontend (Mobile)
