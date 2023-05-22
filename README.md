@@ -105,6 +105,8 @@ npx prisma studio
 ## Frontend (Web)
 - Tailwind
 
+- Figma [layout](https://www.figma.com/file/6oYOVwDVbQ8pqAHxMIzq6L/C%C3%A1psula-do-tempo-%E2%80%A2-Trilha-Ignite?type=design&t=BM62LUMkmgXf528f-0)
+
 Create the project with [Next.js](https://nextjs.org/learn/basics/create-nextjs-app/setup):
 ```sh
 npx create-next-app@latest web --use-npm
@@ -112,7 +114,7 @@ npx create-next-app@latest web --use-npm
 
 Install the dependencies:
 ```sh
-
+npm i lucide-react
 ```
 
 Install the development dependencies:
@@ -128,6 +130,8 @@ npm run dev
 
 
 ## Frontend (Mobile)
+
+- Expo
 
 Create the project:
 ```sh
@@ -161,3 +165,5 @@ Start the project:
 ```sh
 npm run start
 ```
+
+[Notion](https://efficient-sloth-d85.notion.site/NLW-12-Spacetime-02e2ac5c92674f849638f9040a624652)
